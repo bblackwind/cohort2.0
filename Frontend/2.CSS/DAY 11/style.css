@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+#BOX1{
+    height: 500px;
+    width: 500px;
+    background:linear-gradient(red,black)
+}
+
+#BOX2{
+    height: 500px;
+    width: 500px;
+    background:linear-gradient(to right,yellow,black)
+}
+
+#BOX3{
+    height: 500px;
+    width: 500px;
+    background:linear-gradient(to left,yellow 90% ,blue )
+} 
+
+#BOX4{
+    height: 500px;
+    width: 500px;
+    background:radial-gradient(yellow,red,black)
+}
+
+#BOX5{
+    height: 500px;
+    width: 500px;
+    background:conic-gradient(yellow,red,black,yellow)
+}
+
+
