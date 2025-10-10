@@ -1,0 +1,59 @@
+@font-face {
+    font-family: f1;
+    src: url(./Schkorycza.otf);
+}
+@font-face {
+    font-family: f2;
+    src: url(./Baron\ Kuffner.otf);
+}
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: f2;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+    background-color: aliceblue;
+}
+
+.main{
+    height: 100%;
+    width: 100%;
+    background-image: url(./nguyen-hung-iVTl2SylXG0-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 3rem;
+    text-align:center ;
+}
+
+.top{
+    margin-top: 2rem;
+}
+h1{
+    font-size: 6rem;
+    font-weight: 100;
+    color: rgb(252, 252, 252);
+    
+    text-shadow:3px 2px black ;
+    
+}
+
+button{
+    height: 7rem;
+    width: 10rem;
+    font-size: 2rem;
+    border-radius: 1rem;
+    background-color: grey;
+    color: white;
+    font-weight: 100;
+    padding: 5px;
+    margin-top: 2rem;
+    box-shadow: 2px 1px rgb(181, 180, 180);
+}
+
+span{
+    color: red;
+}
