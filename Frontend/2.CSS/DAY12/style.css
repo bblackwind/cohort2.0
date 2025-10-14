@@ -10,7 +10,7 @@ html,body{
     background-color: rgb(0, 0, 0);
 }
 
-#car1{
+/* #car1{
     height: 100px;
     width: 100px;
     background-color: red;
@@ -27,4 +27,38 @@ html,body{
     height: 300px;
     width: 300px;
     background-color: rgb(0, 255, 149);
+} */
+
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
 }
+
+#outer{
+    height: 500px;
+    width: 500px;
+    background-color: yellow;
+    border: 2px solid rgb(241, 230, 210);
+}
+
+#inner{
+    position: relative;
+    height: 400px;
+    width: 400px;
+    background-color:aqua;
+    border: 2px solid rgb(241, 230, 210);
+}
+
+#test{
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    background-color:chocolate ;
+    border: 2px solid rgb(241, 230, 210); 
+    left:50%
+}
+
+
+
+
