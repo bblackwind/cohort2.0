@@ -35,7 +35,7 @@ html,body{
     background-color: rgb(0, 0, 0);
 }
 
-#outer{
+/* #outer{
     height: 500px;
     width: 500px;
     background-color: yellow;
@@ -57,6 +57,35 @@ html,body{
     background-color:chocolate ;
     border: 2px solid rgb(241, 230, 210); 
     left:50%
+} */
+
+#homepage{
+    height:3000px;
+    width: 100%;
+    background-color: black;
+}
+
+.slide1{
+    height:1500px;
+    width: 100%;
+    background: linear-gradient(red,blue);
+}
+
+.slide2{
+    height:1500px;
+    width: 100%;
+    background: linear-gradient(red,blue);
+}
+
+.box{
+    position: fixed;
+    height: 200px;
+    width: 100px;
+    right:0;
+    top:50%;
+    background-color: black;
+    color: white;
+    text-align: center;
 }
 
 
