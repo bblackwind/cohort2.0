@@ -7,8 +7,6 @@
 html,body{
     height: 100%;
     width: 100%;
-    
-    
 }
 
 #main{
@@ -16,15 +14,22 @@ html,body{
     width: 100%;
     /* background-color: rgba(43, 194, 194, 0.844); */
     padding: 30px;
+    background-image: url(./bcak.jpg);
+    background-size: cover;      
+    display: flex; 
+    gap: 20px;
+    flex-wrap: wrap;
 }
 
 .card{
-    height: 300px;
-    width: 350px;
+    height: 400px;
+    width: 380px;
     border-radius: 10px;
     position: relative;
     /* background-color: blue; */
     overflow: hidden;
+    border: 2px solid purple;
+    box-shadow: 5px 10px 8px;
 }
 
 .card img{
@@ -40,8 +45,26 @@ html,body{
     background: linear-gradient(transparent, black);
     bottom: -40%;
     transition: all ease 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
 }
 
 .card:hover .bottom{
     bottom: 0;
 }
+
+.bottom h3{
+    background-color: white;
+    padding: 5px;
+    border-radius: 50%;
+}
+
+.bottom h4{
+    color: white;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+
