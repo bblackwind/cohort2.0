@@ -7,29 +7,41 @@
 html,body{
     height: 100%;
     width: 100%;
-    background-color: rgba(43, 194, 194, 0.844);
+    
     
 }
-body{
-    padding: 20px;
+
+#main{
+    height: 100%;
+    width: 100%;
+    /* background-color: rgba(43, 194, 194, 0.844); */
+    padding: 30px;
 }
 
 .card{
     height: 300px;
     width: 350px;
     border-radius: 10px;
-    /* overflow: hidden; */
+    position: relative;
+    /* background-color: blue; */
+    overflow: hidden;
 }
 
 .card img{
     height: 100%;
     width: 100%;
     object-fit: cover;
-    
 }
 
 .bottom{
+    position: absolute;
     height: 40%;
     width: 100%;
-    background-color: red;
+    background: linear-gradient(transparent, black);
+    bottom: -40%;
+    transition: all ease 0.3s;
+}
+
+.card:hover .bottom{
+    bottom: 0;
 }
