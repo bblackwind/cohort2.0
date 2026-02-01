@@ -17,6 +17,7 @@ main{
     display: grid;
     grid-gap: 20px;
     padding: 20px;
+
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 70px 1fr 0.5fr 0.5fr;
 
@@ -24,6 +25,8 @@ main{
                          "section section section"
                          "div-left bottom-up div-right"
                          "div-left bottom-down div-right";
+    
+                         
 }
 
 header{
