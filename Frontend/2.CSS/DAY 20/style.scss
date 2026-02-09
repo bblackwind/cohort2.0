@@ -1,3 +1,5 @@
+@import './button';
+
 *{
     margin: 0;
     padding: 0;
@@ -15,16 +17,7 @@ html,body{
     justify-content: center;
 }
 
-@mixin button-style($bg-color){
-    padding: 20px 30px;
-    outline: none;
-    border: none;
-    border-radius: 7px;
-    font-size: 18px;
-    background-color: $bg-color;
-    color: white;
-    cursor: pointer;
-}
+
 
 main{
     height: 100%;
